@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>study.developia</groupId>
-    <artifactId>ecommerce</artifactId>
+    <artifactId>discoveryservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ecommerce</name>
-    <description>ecommerce</description>
+    <name>Discovery Service</name>
+    <description>Discovery Service</description>
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2021.0.3</spring-cloud.version>
