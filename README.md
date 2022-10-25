@@ -8,4 +8,4 @@
 `docker push developiaa/discovery-service:1.0`
 
 # Docker 실행
-`docker run -d -p 8888:8888 --network ecommerce-network -e "spring.rabbitmq.host=rabbitmq_docker" -e "spring.profiles.active=default" --name discovery-service developiaa/discovery-service:1.0`
+`docker run -d -p 8761:8761 --network ecommerce-network -e "spring.cloud.config.uri=http://config-service:8888" --name discovery-service developiaa/discovery-service:1.0`
