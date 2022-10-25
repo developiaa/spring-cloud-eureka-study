@@ -9,8 +9,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>study.developia</groupId>
-    <artifactId>discoveryservice</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>discovery-service</artifactId>
+    <version>1.0</version>
     <name>Discovery Service</name>
     <description>Discovery Service</description>
     <properties>
